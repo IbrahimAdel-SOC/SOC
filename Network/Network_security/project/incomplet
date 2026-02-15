@@ -1,0 +1,9 @@
+VPN
+
+access-list 112 permit icmp any any echo-reply
+access-list 112 permit icmp any any unreachable
+access-list 112 deny icmp any any
+access-list 112 permit ip any any
+
+interface serial 0/0/0
+ ip access-group 112 in

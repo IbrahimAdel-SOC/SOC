@@ -1,0 +1,21 @@
+sw1,R0
+pass enable 123
+user hima pass 456
+
+admin
+  10.0.0.0 /29
+
+accouning
+  10.0.0.8 /29
+
+IT
+  10.0.0.16 /29
+
+
+sw0,R1
+pass enable 789
+user hima1 pass 741
+
+sw2,R2
+pass enable 852
+user hima2 pass 963
